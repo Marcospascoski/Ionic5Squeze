@@ -4,8 +4,18 @@
 <b>1 - Instalar o Nodejs</b><br>
 Download: https://nodejs.org/en/ <br>
 
-<b>1 - Instalar o Visual Code</b><br>
+<b>2 - Instalar o Visual Code</b><br>
 Download: https://code.visualstudio.com/
 
-<b>3 - Instalar o Ionic Cli e Cordova - Abrir o cmd e execute:</b><br>
+<b>3 - Instalar o Git</b><br>
+Download: https://git-scm.com/
+
+<b>4 - Instalar o Ionic Cli e Cordova - Abrir o cmd e execute:</b><br>
 <b>Comando:</b>npm install -g @ionic/cli cordova 
+
+Feito clone do repo
+
+abra a pasta do projeto e dentro do projeto execute no terminal:
+
+Comando: npm install 
+Comando: ionic serve
