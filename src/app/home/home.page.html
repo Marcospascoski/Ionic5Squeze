@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      {{tituloPagina}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary">
+      <ion-title size="large">{{tituloPagina}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <ion-label>
+      <h1>{{headLine}}</h1>
+    </ion-label>
+    <ion-list>
+      <ion-row>
+        <ion-item lines="none">
+          <ion-card>
+
+          </ion-card>
+        </ion-item>
+      </ion-row>
+    </ion-list>
+    <ion-button color="warning" shape="round">{{ tituloBotao }}</ion-button>
+
+  </div>
+</ion-content>
+
+<div id="footer">
+  <ion-footer>
+    <p>
+      <a class="ion-padding">{{ politicaPrivacidade }}</a>
+      <a class="ion-padding">{{ avisoLegal }}</a>
+    </p>
+  </ion-footer>
+</div>
