@@ -13,9 +13,9 @@ Download: https://git-scm.com/
 <b>4 - Instalar o Ionic Cli e Cordova - Abrir o cmd e execute:</b><br>
 <b>Comando:</b>npm install -g @ionic/cli cordova 
 
-Feito clone do repo
+Feito clone do repositório
 
 abra a pasta do projeto e dentro do projeto execute no terminal:
 
-Comando: npm install 
-Comando: ionic serve
+<b>Comando:</b> npm install<br> 
+<b>Comando:</b>ionic serve

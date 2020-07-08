@@ -11,6 +11,19 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'politica-privacidade',
+    loadChildren: () => import('./politica-privacidade/politica-privacidade.module').then( m => m.PoliticaPrivacidadePageModule)
+  },
+  {
+    path: 'aviso-legal',
+    loadChildren: () => import('./aviso-legal/aviso-legal.module').then( m => m.AvisoLegalPageModule)
+  },
+  {
+    path: '**',
+    loadChildren: () => import('./not-found/not-found.module').then( m => m.NotFoundPageModule)
+  },
+
 ];
 
 @NgModule({
