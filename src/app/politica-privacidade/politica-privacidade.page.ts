@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PoliticaPrivacidadePage implements OnInit {
 
-  constructor() { }
+
+  TextoNomeDoSite: any;
+
+  constructor() {
+    this.TextoNomeDoSite = 'Nome Do Site';
+  }
 
   ngOnInit() {
   }

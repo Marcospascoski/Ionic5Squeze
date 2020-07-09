@@ -31,12 +31,9 @@ h1 {
   text-decoration: none;
 }
 
-#footer p {
+#footer {
   text-align: center;
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
+  font-size: 12px;
 }
 
 ion-list {
@@ -49,9 +46,14 @@ ion-list {
   }
 }
 
-ion-button {
+.button {
   font-size: 16px;
   font-weight: 600;
+}
+
+.button-clear {
+  font-size: 12px;
+  --color: #8c8c8c;
 }
 
 .video-container {

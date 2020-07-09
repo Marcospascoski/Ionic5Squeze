@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AvisoLegalPage implements OnInit {
 
-  constructor() { }
+  nomeDoProdutor: any;
+
+  constructor() {
+    this.nomeDoProdutor = 'Nome Do Produtor';
+  }
 
   ngOnInit() {
   }
