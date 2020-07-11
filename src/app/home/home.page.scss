@@ -1,6 +1,10 @@
 h1 {
-  font-size: 35px;
+  font-size: 60px;
   font-weight: 600;
+}
+
+ion-content {
+  --background: #ffff00 url('../../assets/Backgrounds.jpg') no-repeat center center / cover !important;
 }
 
 #container {
@@ -37,10 +41,10 @@ h1 {
 }
 
 ion-list {
-  background: #f4f5f8;
+  background: #f4f5f800;
   text-align: center;
   ion-item {
-    --background: #f4f5f8;
+    --background: #f4f5f800;
     margin: 0;
     display: -webkit-inline-box;
   }
@@ -57,8 +61,8 @@ ion-list {
 }
 
 .video-container {
-  height: 40vmin;
-  width: 71vmin;
+  height: 56vmin;
+  width: 100vmin;
 }
 
 .video-container iframe,
