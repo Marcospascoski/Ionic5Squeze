@@ -21,10 +21,10 @@ export class HomePage {
     private iab: InAppBrowser,
     private sanitizer: DomSanitizer,
     private router: Router
-    ) {
+  ) {
     this.tituloPagina = 'Título Página';
     this.headLine = 'Aqui será Nossa headline';
-    this.tituloBotao = 'Entrar Grupo do Facebook';
+    this.tituloBotao = 'Entre No Grupo do Facebook';
     this.politicaPrivacidade = 'Politíca de Privacidade';
     this.avisoLegal = 'Aviso Legal';
     this.url = 'https://www.youtube.com/embed/9xwazD5SyVg';
