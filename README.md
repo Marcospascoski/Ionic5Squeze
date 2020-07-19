@@ -13,9 +13,15 @@ Download: https://git-scm.com/
 <b>4 - Instalar o Ionic Cli e Cordova - Abrir o cmd e execute:</b><br>
 <b>Comando:</b>npm install -g @ionic/cli cordova 
 
-Feito clone do repositório
+<b>5 - Instalar o Angular Cli - Abrir o cmd e execute:</b><br>
+<b>Comando:</b> npm install -g @angular/cli
 
-abra a pasta do projeto e dentro do projeto execute no terminal:
+Baixei o projeto
+Logo após baixar o projeto do GitHub
+Descompacte o arquivo zip.
+
+abra a pasta do projeto
+e dentro do projeto execute no terminal:
 
 <b>Comando:</b> npm install<br> 
-<b>Comando:</b>ionic serve
+<b>Comando:</b> ionic serve
