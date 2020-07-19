@@ -17,7 +17,7 @@ Download: https://git-scm.com/
 <b>Comando:</b> npm install -g @angular/cli
 
 Baixei o projeto
-Logo após baixar o projeto do GitHub
+Logo após baixar o projeto do GitHub</br>
 Descompacte o arquivo zip.
 
 abra a pasta do projeto
